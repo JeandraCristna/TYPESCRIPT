@@ -4,4 +4,5 @@ var x = true;
 function greeting(name) {
     console.log('Olá,' + name);
 }
-console.log(FirstName);
+greeting(FirstName);
+greeting(x);
